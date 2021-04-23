@@ -24,7 +24,11 @@ const getExchange = (response) => {
     return usd * exRate.EUR;
   } else if (currency === 'BHD') {
     return usd * exRate.BHD; 
-  } else {
-    $('.showerrors').text(`<p>There was an error: ${response.statusText}`);
+  } else if (currency === 'AUD') {
+    return usd * exRate.AUD;
+  } else if (currency === 'BUCK') {
+    $('.notcurrency').show();
+  }  else {
+    $('.showerrors').text(`<p>There was an error: ${response.result}`);
   }
 };
