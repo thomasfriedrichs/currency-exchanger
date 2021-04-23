@@ -14,7 +14,7 @@ $('#submit').on('click', (event) => {
 
 const getExchange = (response) => {
   let usd = $('#usd').val();
-  let currency = $('input:checkbox[name=currency]:checked').val();
+  let currency = parseInt($('input:checkbox[name=currency]:checked').val());
   console.log(currency);
   let exRate = response.conversion_rates;
   if (currency === 'AED'){
