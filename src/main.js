@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import ExchangeService from '../src/js/exchange-service.js';
 
+//UI logic
 $('#submit').on('click', (event) => {
   event.preventDefault();
   ExchangeService.getRate()
@@ -12,6 +13,7 @@ $('#submit').on('click', (event) => {
     });
 });
 
+//Business logic
 const getExchange = (response) => {
   let usd = $('#usd').val();
   let currency = $('#currency').val();
