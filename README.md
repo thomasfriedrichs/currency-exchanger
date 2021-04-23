@@ -1,39 +1,46 @@
-# _{Application Name}_
+# _{Currency Exchanger}_
 
-#### _{Brief description of application}_
+#### _{Converts USD to a list of other currencies}_
 
-#### By _**{List of contributors}**_
+#### By _**{Thomas Friedrichs}**_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _VScode_
+* _npm_
+* _css_
+* _html_
+* _Javascript_
+* _exchange rate API_
+
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_{In this application you can input a USD amount, then select a currency type. The program will contact the API and return a converted amount to the display}_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _go to https://github.com/thomasfriedrichs/currency-exchanger_
+* _select code, then copy the link_
+* _open your terminal and type in 'git clone (link)', then type 'code .'_
+* _type 'npm i' into terminal_
+* _type in 'npm start'_
+* _open 'dist' folder_
+* _drag html into your web browser_
+*_enjoy application!_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _no known bugs_
 
 ## License
+MIT License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Copyright (c) [2021] [Thomas Friedrichs]
+
+_{If you run into issues or have any questions or concerns please feel free to contact me!}_
 
 ## Contact Information
 
-_{Add your contact information here.}_
+_{email: friedrichs.tommy@gmail.com}_
