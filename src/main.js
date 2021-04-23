@@ -14,11 +14,22 @@ $('#submit').on('click', (event) => {
 
 const getExchange = (response) => {
   let usd = $('#usd').val();
-  let currency = parseInt($('input:checkbox[name=currency]:checked').val());
-  console.log(currency);
+  let currency = $('#currency').val();
   let exRate = response.conversion_rates;
   if (currency === 'AED'){
+    console.log(usd * exRate.AED);
     return usd * exRate.AED;
+  } else if (currency === 'ANG') {
+    console.log(usd * exRate.ANG);
+    return usd * exRate.ANG;
+  } else if (currency === 'EUR') {
+    console.log(usd * exRate.EUR);
+    return usd * exRate.EUR;
+  } else if (currency === 'BHD') {
+    console.log(usd * exRate.BHD);
+    return usd * exRate.BHD; 
+  } else {
+    console.log('error');
   }
 };
 
