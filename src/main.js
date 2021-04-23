@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import ExchangeService from '../src/js/exchange-service.js'
+import ExchangeService from '../src/js/exchange-service.js';
 
 $('.submit').on('click', (event) => {
   event.preventDefault();
@@ -12,13 +12,15 @@ $('.submit').on('click', (event) => {
     .then(function(response) {
       getExchange(response);
     });
-  });
+});
 
-  const getExchange = (response) => {
-    let exRate = response.conversion_rates;
-    if (currency === 'AED'){
-      return usd * exRate.AED
-    }
+const getExchange = (response) => {
+  let usd = $('#usd').val();
+  let currency = $('#currency').val();
+  let exRate = response.conversion_rates;
+  if (currency === 'AED'){
+    return usd * exRate.AED;
   }
+};
 
 
