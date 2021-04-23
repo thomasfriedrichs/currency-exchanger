@@ -11,7 +11,14 @@ $('.submit').on('click', (event) => {
   ExchangeService.getRate(usd, currency)
     .then(function(response) {
       getExchange(response);
-    })
+    });
   });
+
+  const getExchange = (response) => {
+    let exRate = response.conversion_rates;
+    if (currency === 'AED'){
+      return usd * exRate.AED
+    }
+  }
 
 
