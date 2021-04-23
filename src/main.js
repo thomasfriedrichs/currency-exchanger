@@ -17,20 +17,14 @@ const getExchange = (response) => {
   let currency = $('#currency').val();
   let exRate = response.conversion_rates;
   if (currency === 'AED'){
-    console.log(usd * exRate.AED);
     return usd * exRate.AED;
   } else if (currency === 'ANG') {
-    console.log(usd * exRate.ANG);
     return usd * exRate.ANG;
   } else if (currency === 'EUR') {
-    console.log(usd * exRate.EUR);
     return usd * exRate.EUR;
   } else if (currency === 'BHD') {
-    console.log(usd * exRate.BHD);
     return usd * exRate.BHD; 
   } else {
-    console.log('error');
+    $('.showerrors').text(`<p>There was an error: ${response.statusText}`);
   }
 };
-
-
