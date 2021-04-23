@@ -19,15 +19,15 @@ const getExchange = (response) => {
   let currency = $('#currency').val();
   let exRate = response.conversion_rates;
   if (currency === 'AED'){
-    return usd * exRate.AED;
+    $('.result').append(`<li>${usd * exRate.AED}</li>`);
   } else if (currency === 'ANG') {
-    return usd * exRate.ANG;
+    $('.result').append(`<li>${usd * exRate.ANG}</li>`);
   } else if (currency === 'EUR') {
-    return usd * exRate.EUR;
+    $('.result').append(`<li>${usd * exRate.EUR}</li>`);
   } else if (currency === 'BHD') {
-    return usd * exRate.BHD; 
+    $('.result').append(`<li>${usd * exRate.BHD}</li>`); 
   } else if (currency === 'AUD') {
-    return usd * exRate.AUD;
+    $('.result').append(`<li>${usd * exRate.AUD}</li>`);
   } else if (currency === 'BUCK') {
     $('.notcurrency').show();
   }  else {
