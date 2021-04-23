@@ -1,8 +1,8 @@
-# _{Currency Exchanger}_
+# _Currency Exchanger_
 
-#### _{Converts USD to a list of other currencies}_
+#### _Converts USD to a list of other currencies_
 
-#### By _**{Thomas Friedrichs}**_
+#### By _**Thomas Friedrichs**_
 
 ## Technologies Used
 
@@ -16,7 +16,7 @@
 
 ## Description
 
-_{In this application you can input a USD amount, then select a currency type. The program will contact the API and return a converted amount to the display}_
+_In this application you can input a USD amount, then select a currency type. The program will contact the API and return a converted amount to the display_
 
 ## Setup/Installation Requirements
 
@@ -39,8 +39,8 @@ MIT License
 
 Copyright (c) [2021] [Thomas Friedrichs]
 
-_{If you run into issues or have any questions or concerns please feel free to contact me!}_
+_If you run into issues or have any questions or concerns please feel free to contact me!_
 
 ## Contact Information
 
-_{email: friedrichs.tommy@gmail.com}_
+_email: friedrichs.tommy@gmail.com_
