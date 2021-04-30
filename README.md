@@ -24,9 +24,12 @@ _In this application you can input a USD amount, then select a currency type. Th
 * _select code, then copy the link_
 * _open your terminal and type in 'git clone (link)', then type 'code .'_
 * _type 'npm i' into terminal_
+* _go to https://www.exchangerate-api.com/docs/overview and select 'get free key' in the top right corner_
+* _they will ask you to make an account with username and email, then they will give you your own api key_
+* _create a '.env' file in the top level of your directory, then go into your .gitignore file and add .env to a new line in that file._
+* in your .env type 'API_KEY='your given api key'.
 * _type in 'npm start'_
-* _open 'dist' folder_
-* _drag html into your web browser_
+* _you may start a live server to test things out_
 *_enjoy application!_
 
 
