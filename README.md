@@ -29,8 +29,8 @@ _In this application you can input a USD amount, then select a currency type. Th
 * _create a '.env' file in the top level of your directory, then go into your .gitignore file and add .env to a new line in that file._
 * in your .env type 'API_KEY='your given api key'.
 * _type in 'npm start'_
-* _you may start a live server to test things out_
-*_enjoy application!_
+* _you may start a live server to test things out, to do this right click on the index.html in your dist folder and select 'open with live server'_
+* _enjoy application!_
 
 
 ## Known Bugs
